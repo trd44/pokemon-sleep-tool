@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+
+import IngredientInput from './components/IngredientInput';
+import RecipeList from './components/RecipeList';
+
 import './App.css';
 
 function App() {
+  const [ingredients, setIngredients] = useState({});
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="ingredients-column">
+        <IngredientInput ingredients={ingredients} setIngredients={setIngredients} />
+      </div>
+      <div className="recipes-column">
+        <RecipeList ingredients={ingredients} />
+      </div>
     </div>
   );
 }

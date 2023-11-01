@@ -1,0 +1,323 @@
+[
+    {
+        "name": "Fancy Apple Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Fancy Apple": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Grilled Tail Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Slowpoke Tail": 8,
+            "Fiery Herb": 25
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Solar Power Tomato Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Snoozy Tomato": 10,
+            "Fiery Herb": 5
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Dream Eater Butter Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Soft Potato": 18,
+            "Snoozy Tomato": 15,
+            "Soothing Cacao": 12,
+            "Moomoo Milk": 10
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Spicy Leek Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Large Leek": 14,
+            "Warming Ginger": 10,
+            "Fiery Herb": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Spore Mushroom Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Tasty Mushroom": 14,
+            "Soft Potato": 9
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Egg Bomb Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Honey": 12,
+            "Fancy Apple": 11,
+            "Fancy Egg": 8,
+            "Soft Potato": 4
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Hearty Cheese Burger Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Moomoo Milk": 8,
+            "Bean Sausage": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Soft Potato Chowder",
+        "category": "Curries",
+        "ingredients": {
+            "Moomoo Milk": 10,
+            "Soft Potato": 8,
+            "Tasty Mushroom": 4
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Simple Chowder",
+        "category": "Curries",
+        "ingredients": {
+            "Moomoo Milk": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Beanburger Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Bean Sausage": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Mild Honey Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Honey": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Ninja Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Greengrass Soybeans": 15,
+            "Bean Sausage": 9,
+            "Large Leek": 9,
+            "Tasty Mushroom": 5
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Drought Katsu Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Bean Sausage": 10,
+            "Pure Oil": 5
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Melty Omelette Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Fancy Egg": 10,
+            "Snoozy Tomato": 6
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Bulk Up Bean Curry",
+        "category": "Curries",
+        "ingredients": {
+            "Greengrass Soybeans": 12,
+            "Bean Sausage": 6,
+            "Fiery Herb": 4,
+            "Fancy Egg": 4
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Slowpoke Tail Pepper Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Slowpoke Tail": 10,
+            "Fiery Herb": 10,
+            "Pure Oil": 15
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Spore Mushroom Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Tasty Mushroom": 17,
+            "Snoozy Tomato": 8,
+            "Pure Oil": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Fluffy Sweet Potatoes",
+        "category": "Desserts",
+        "ingredients": {
+            "Soft Potato": 9,
+            "Moomoo Milk": 5
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Steadfast Ginger Cookies",
+        "category": "Desserts",
+        "ingredients": {
+            "Honey": 14,
+            "Warming Ginger": 12,
+            "Soothing Cacao": 5,
+            "Fancy Egg": 4
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Fancy Apple Juice",
+        "category": "Desserts",
+        "ingredients": {
+            "Fancy Apple": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Craft Soda Pop",
+        "category": "Desserts",
+        "ingredients": {
+            "Honey": 9
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Ember Ginger Tea",
+        "category": "Desserts",
+        "ingredients": {
+            "Warming Ginger": 9,
+            "Fancy Apple": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Jigglypuff's Fruity Flan",
+        "category": "Desserts",
+        "ingredients": {
+            "Honey": 20,
+            "Fancy Egg": 15,
+            "Moomoo Milk": 10,
+            "Fancy Apple": 10
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Lovely Kiss Smoothie",
+        "category": "Desserts",
+        "ingredients": {
+            "Fancy Apple": 11,
+            "Moomoo Milk": 9,
+            "Honey": 7,
+            "Soothing Cacao": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Lucky Chant Apple Pie",
+        "category": "Desserts",
+        "ingredients": {
+            "Fancy Apple": 12,
+            "Moomoo Milk": 4
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Neroli's Restorative Tea",
+        "category": "Desserts",
+        "ingredients": {
+            "Warming Ginger": 11,
+            "Fancy Apple": 15,
+            "Tasty Mushroom": 9
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Sweet Scent Chocolate Cake",
+        "category": "Desserts",
+        "ingredients": {
+            "Honey": 9,
+            "Soothing Cacao": 8,
+            "Moomoo Milk": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Warm Moomoo Milk",
+        "category": "Desserts",
+        "ingredients": {
+            "Moomoo Milk": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Cloud Nine Soy Cakes",
+        "category": "Desserts",
+        "ingredients": {
+            "Fancy Egg": 8,
+            "Greengrass Soybeans": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Hustle Protein Smoothie",
+        "category": "Desserts",
+        "ingredients": {
+            "Greengrass Soybeans": 15,
+            "Soothing Cacao": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Stalwart Vegetable Juice",
+        "category": "Desserts",
+        "ingredients": {
+            "Snoozy Tomato": 9,
+            "Fancy Apple": 7
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Big Malasada",
+        "category": "Desserts",
+        "ingredients": {
+            "Pure Oil": 10,
+            "Moomoo Milk": 7,
+            "Honey": 6
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Huge Power Soy Donuts",
+        "category": "Desserts",
+        "ingredients": {
+            "Pure Oil": 9,
+            "Greengrass Soybeans": 6,
+            "Soothing Cacao": 7
+        },
+        "isMarked": false
+    }
+]
