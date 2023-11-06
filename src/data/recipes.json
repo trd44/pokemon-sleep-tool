@@ -170,6 +170,138 @@
         "isMarked": false
     },
     {
+        "name": "Snow Cloak Ceasar Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Moomoo Milk": 10,
+            "Bean Sausage": 6
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Gluttony Potato Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Soft Potato": 14,
+            "Fancy Egg": 9,
+            "Bean Sausage": 7,
+            "Fancy Apple": 6
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Water Veil Tofu Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Greengrass Soybeans": 10,
+            "Snoozy Tomato": 6
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Superpower Extreme Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Bean Sausage": 9,
+            "Warming Ginger": 6,
+            "Fancy Egg": 5,
+            "Soft Potato": 3
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Bean Ham Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Bean Sausage": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Snoozy Tomato Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Snoozy Tomato": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Moomoo Caprese Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Moomoo Milk": 12,
+            "Snoozy Tomato": 6,
+            "Pure Oil": 5
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Contrary Chocolate Meat Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Soothing Cacao": 14,
+            "Bean Sausage": 9
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Overheat Ginger Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Fiery Herb": 17,
+            "Warming Ginger": 10,
+            "Snoozy Tomato": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Fancy Apple Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Fancy Apple": 8
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Immunity Leek Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Large Leek": 10,
+            "Warming Ginger": 5
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Dazzling Apple Cheese Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Fancy Apple": 15,
+            "Moomoo Milk": 5,
+            "Pure Oil": 3
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Ninja Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Large Leek": 15,
+            "Greengrass Soybeans": 15,
+            "Tasty Mushroom": 12,
+            "Warming Ginger": 11
+        },
+        "isMarked": false
+    },
+    {
+        "name": "Heat Wave Tofu Salad",
+        "category": "Salads",
+        "ingredients": {
+            "Greengrass Soybeans": 10,
+            "Fiery Herb": 6
+        },
+        "isMarked": false
+    },
+    {
         "name": "Fluffy Sweet Potatoes",
         "category": "Desserts",
         "ingredients": {
