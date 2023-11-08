@@ -82,11 +82,12 @@ function RecipeList({ ingredients }) {
     return (
 
         <div className="recipe-list">
+            <div className="recipe-list-top-row">
             <h1>Dishes</h1>
-
             <button onClick={() => setHideMarked(prev => !prev)}>
                 {hideMarked ? "Show Marked Recipes" : "Hide Marked Recipes"}
             </button>
+            </div>
 
             <Collapsible title="Curries">
                 {renderRecipes(curries)}

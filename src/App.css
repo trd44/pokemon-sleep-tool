@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -43,15 +44,34 @@
   width: 100%;
 }
 
-.ingredient-input {
-  flex: 1;
+.ingredient-amount-input {
+  width: 30%;
   padding: 10px;
   border-right: 1px solid gray;
 }
 
-.ingredient-input label {
-  display: block;
-  margin-bottom: 10px;
+.ingredient-image {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.ingredient-name {
+  margin-right: auto;
+}
+
+.ingredient-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="number"] {
+  padding: 5px 10px;
+  /* margin-bottom: 10px; */
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
 }
 
 .recipe-can-make {
@@ -69,10 +89,11 @@
 }
 
 .recipes-column {
-  flex: 1; 
+  flex: 1;
   /* padding: 20px;  */
-  overflow-y: auto; /* this allows scrolling for overflowing content */
-  max-height: 100vh; 
+  overflow-y: auto;
+  /* this allows scrolling for overflowing content */
+  max-height: 100vh;
 }
 
 .ingredients-column {
@@ -90,13 +111,10 @@
   height: 100%;
 }
 
-
-input[type="number"] {
-  padding: 5px 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
+.recipe-list-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
@@ -120,13 +138,14 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-div, input, h3 {
+div,
+input,
+h3 {
   transition: all 0.3s ease;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
-
-

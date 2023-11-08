@@ -1,46 +1,67 @@
+import React from "react";
+// import ingredientList from "../data/ingredients.json";
+import largeleek from '../assets/ingredient_images/largeleek.png';
+import tastymushroom from '../assets/ingredient_images/tastymushroom.png';
+import fancyegg from '../assets/ingredient_images/fancyegg.png';
+import softpotato from '../assets/ingredient_images/softpotato.png';
+import fancyapple from '../assets/ingredient_images/fancyapple.png';
+import fieryherb from '../assets/ingredient_images/fieryherb.png';
+import beansausage from '../assets/ingredient_images/beansausage.png';
+import moomoomilk from '../assets/ingredient_images/moomoomilk.png';
+import honey from '../assets/ingredient_images/honey.png';
+import pureoil from '../assets/ingredient_images/pureoil.png';
+import warmingginger from '../assets/ingredient_images/warmingginger.png';
+import snoozytomato from '../assets/ingredient_images/snoozytomato.png';
+import soothingcacao from '../assets/ingredient_images/soothingcacao.png';
+import slowpoketail from '../assets/ingredient_images/slowpoketail.png';
+import greengrasssoybeans from '../assets/ingredient_images/greengrasssoybeans.png';
+
 function IngredientInput({ ingredients, setIngredients }) {
 
-    const ingredientNames = [
-        'Large Leek', 
-        'Tasty Mushroom', 
-        'Fancy Egg', 
-        'Soft Potato',
-        'Fancy Apple',
-        'Fiery Herb',
-        'Bean Sausage',
-        'Moomoo Milk',
-        'Honey',
-        'Pure Oil',
-        'Warming Ginger',
-        'Snoozy Tomato',
-        'Soothing Cacao',
-        'Slowpoke Tail',
-        'Greengrass Soybeans'
+    const ingredientList = [
+        { name: 'Large Leek', image: largeleek },
+        { name: 'Tasty Mushroom', image: tastymushroom },
+        { name: 'Fancy Egg', image: fancyegg },
+        { name: 'Soft Potato', image: softpotato },
+        { name: 'Fancy Apple', image: fancyapple },
+        { name: 'Fiery Herb', image: fieryherb },
+        { name: 'Bean Sausage', image: beansausage },
+        { name: 'Moomoo Milk', image: moomoomilk },
+        { name: 'Honey', image: honey },
+        { name: 'Pure Oil', image: pureoil },
+        { name: 'Warming Ginger', image: warmingginger },
+        { name: 'Snoozy Tomato', image: snoozytomato },
+        { name: 'Soothing Cacao', image: soothingcacao },
+        { name: 'Slowpoke Tail', image: slowpoketail },
+        { name: 'Greengrass Soybeans', image: greengrasssoybeans }
     ];
 
-    const handleInputChange = (ingredient, value) => {
-      setIngredients(prev => ({
-        ...prev,
-        [ingredient]: value
-      }));
-    };
-  
-    return (
-      <div className="ingredient-input">
-        <h1>Ingredients</h1>
-        {ingredientNames.map(name => (
-        <label key={name}>
-          {name.charAt(0).toUpperCase() + name.slice(1)}:
-          <input 
-            type="number" 
-            value={ingredients[name] || ''} 
-            onChange={e => handleInputChange(name, e.target.value)} 
-          />
-        </label>
-      ))}
-      </div>
-    );
-  }
 
-  export default IngredientInput;
-  
+    const handleInputChange = (ingredient, value) => {
+        setIngredients(prev => ({
+            ...prev,
+            [ingredient]: value
+        }));
+    };
+
+    return (
+        <div className="ingredient-list-container">
+            <h1>Ingredients</h1>
+            {ingredientList.map(item => (
+                <div key={item.name} className="ingredient-row">
+                    <img src={item.image} alt={item.name} className="ingredient-image" />
+                    <span className="ingredient-name">{item.name}</span>
+                    <input
+                        className="ingredient-amount-input"
+                        type="number"
+                        value={ingredients[item.name] || ''}
+                        onChange={e => handleInputChange(item.name, e.target.value)}
+                        max="999"
+                    />
+                </div>
+            ))}
+        </div>
+    );
+}
+
+export default IngredientInput;
